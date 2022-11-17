@@ -1,0 +1,18 @@
+import std
+import mem
+
+sub incr(arg1: int ptr):
+    ~arg1 += 1
+
+fn main(argc: int, argv: str[]):int =>
+    let name = "myname"
+    var age = 12
+    const nick = "nil"
+    print("hello world", name)
+    echo "hello" "-" name
+    printf("hello %s", name)
+    let fun = fn(x) => x + 1
+    match aaa =>
+        |> aaa -> bbb
+        |> ccc -> ddd
+    return 0
